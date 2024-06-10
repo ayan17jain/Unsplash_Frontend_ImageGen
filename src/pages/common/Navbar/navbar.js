@@ -22,7 +22,7 @@ const Navbar = (props) => {
                 <Link to="/login" style={customColor('login')}>Login</Link>
             </div>
             <div className="right" style={{ padding: '4px', color: 'brown' }}>
-                P
+                
             </div>
             {contextValues.isLoggedIn ?
                 <button onClick={contextValues.logout}>Logout</button>

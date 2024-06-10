@@ -27574,8 +27574,7 @@ const Navbar = (props)=>{
                 style: {
                     padding: "4px",
                     color: "brown"
-                },
-                children: "P"
+                }
             }, void 0, false, {
                 fileName: "src/pages/common/Navbar/navbar.js",
                 lineNumber: 24,

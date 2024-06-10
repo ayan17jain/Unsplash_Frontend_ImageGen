@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('benjamin-voros-phIFdC6lA4E-unsplash.jpg');
+    font-family: 'Roboto', sans-serif;
+    background-image: url('gilberto-olimpio-vgmlqqp92MQ-unsplash.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -20,7 +20,8 @@ body {
 .header h1 {
     font-size: 3em;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #f3f3f2;
+    text-shadow: 2px 2px 4px rgba(14, 13, 13, 0.7);
 }
 
 .header p {
@@ -28,6 +29,7 @@ body {
     margin-bottom: 20px;
     opacity: 0.8;
     color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
 .card-container {
@@ -39,7 +41,7 @@ body {
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -63,4 +65,22 @@ body {
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
